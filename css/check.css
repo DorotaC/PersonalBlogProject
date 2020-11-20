@@ -1,0 +1,22 @@
+parent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.child {
+
+  /* //  If we dont want the items to stretch:
+  flex: 0 1 100px; */
+  /* //  If we do want the items to stretch: */
+  flex: 0 1 300px;
+
+  /* //   etc. */
+  border: 1px solid red;
+  background: lightpink;
+  font-size: 2rem;
+  text-align: center;
+}
+
+body {
+  font-family: system-ui, serif;
+}

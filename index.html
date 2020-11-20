@@ -2,34 +2,40 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Personal blog project</title>
   </head>
-  <body>
-    <header><a href="index.html">Green, grey & front end</a></header>
-    <nav>
-      <a href="storyBehind.html">Story Behind</a>
-      <a href="collaborations.html">Collaborations</a>
-      <a href="archive.html">Blog archive</a>
-    </nav>
+  <body class="blog">
+    <header><h1><a href="index.html">Green, grey & front end</a></h1>
+      <nav>
+        <div class="containerSpaced">
+          <a class="longButton" href="storyBehind.html">Story</a>
+          <a class="longButton" href="collaborations.html">Collaborations</a>
+          <a class="longButton" href="archive.html">Blog archive</a>
+        </div>
+      </nav>
+    </header>
     <aside>
-      <div>
-        <a href="https://www.facebook.com/">
-          <img src="SocialMediaIcons\Facebook\f_logo_RGB-White_58.png"
+      <div class="container">
+        <a class="socialMediaButton" href="https://www.facebook.com/">
+          <img src="SocialMediaIcons/Facebook/f_logo_RGB-Black_54.png"
           alt="Facebook icon"></a>
-        <a href="https://www.linkedin.com/">
-          <img src="SocialMediaIcons\LinkedIn\In-White-59px-R.png"
+        <a class="socialMediaButton" href="https://www.linkedin.com/">
+          <img src="SocialMediaIcons/LinkedIn/In-Black-54px-R.png"
           alt="LinkedIn icon"></a>
-        <a href="https://www.twitter.com/">
-          <img src="SocialMediaIcons\Twitter\Twitter_Logo_WhiteOnImage.png"
+        <a class="socialMediaButton" href="https://www.twitter.com/">
+          <img src="SocialMediaIcons/Twitter/Twitter_Black_54.png"
           alt="LinkedIn icon"></a>
       </div>
       <div class="card">
-        <img src="http://placebeaver.com/200/200" alt="Avatar">
-        <div class="container">
-          <h4>About me</h4>
+        <div class="shortTitle description">About me</div>
+        <div class="avatar"></div>
+        <div class="shortTitle description shortInfo">
           Dorota Deleżyńska, MSc<br>
-          Learning to code<br>
+          Learning to code
+        </div>
+        <div class="shortTitle description shortInfo">
           Ice cream tiramisu macaroon chocolate bar marzipan danish.
           Croissant sesame snaps chocolate bar. Chocolate bar macaroon jelly-o
           croissant tootsie roll. Caramels bear claw gummi bears.

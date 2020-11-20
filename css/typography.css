@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Montserrat&display=swap');
+
+body {
+  font: normal 16.5px/1 "Lato", sans-serif;
+  color: #3b463e;
+  padding: 2em;
+  line-height: 1.3;
+  text-align: justify;
+  text-justify: inter-character;
+}
+
+h1 {
+  font-size: 3em;
+  font-stretch: extra-expanded;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 2.5em;
+  font-stretch: expanded;
+  line-height: 1.3;
+}
+
+h3 {
+  font-size: 1.8em;
+  font-stretch: semi-expanded;
+  line-height: 1.2;
+}
+
+h4 {
+  font-size: 1.5em;
+  line-height: 1.1;
+}
+
+ul {
+  list-style-type: circle;
+  padding-left: 1.5em;
+}
+
+ol {
+  padding-left: 1.5em;
+}
+
+ul li {
+  margin-left: 0.5em;
+  padding: 0.5em;
+}
+
+ol li {
+  margin-left: 0.5em;
+  padding: 0.5em;
+}
+
+p {
+  padding: 1em;
+}
+
+.citation {
+  margin: 0.5em;
+  padding: 0.5em;
+  background-color: #c2d1c2;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.code {
+  margin: 0.5em;
+  padding: 0.5em;
+  background-color: #b8ab97;
+  font-family: "Montserrat", sans-serif;
+}
+
+a:link {
+  color: #7b806c;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #c2d1c2;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #b8ab97;
+  text-decoration: none;
+}
+
+.shortTitle {
+  font-size: 1.1em;
+  line-height: 1.1;
+  font-weight: bold;
+}
+
+.squareButton {
+  color: #c2d1c2;
+}
+
+.shortInfo {
+  text-align: center;
+}
+
+header {
+  text-align: center;
+}

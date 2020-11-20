@@ -1,4 +1,4 @@
-/* @import "./layout";
-@import "./images";
-@import "./cards"; */
-@import "./Typography";
+@import url("./shapes.css");
+@import url("./typography.css");
+@import url("./colors.css");
+@import url("./layouts.css")

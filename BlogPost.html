@@ -2,34 +2,40 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Personal blog project</title>
   </head>
-  <body>
-    <header><a href="index.html">Green, grey & front end</a></header>
-    <nav>
-      <a href="storyBehind.html">Story Behind</a>
-      <a href="collaborations.html">Collaborations</a>
-      <a href="archive.html">Blog archive</a>
-    </nav>
+  <body class="blog">
+    <header><h1><a href="index.html">Green, grey & front end</a></h1>
+      <nav>
+        <div class="containerSpaced">
+          <a class="longButton" href="storyBehind.html">Story</a>
+          <a class="longButton" href="collaborations.html">Collaborations</a>
+          <a class="longButton" href="archive.html">Blog archive</a>
+        </div>
+      </nav>
+    </header>
     <aside>
-      <div>
-        <a href="https://www.facebook.com/">
-          <img src="SocialMediaIcons\Facebook\f_logo_RGB-White_58.png"
+      <div class="container">
+        <a class="socialMediaButton" href="https://www.facebook.com/">
+          <img src="SocialMediaIcons/Facebook/f_logo_RGB-Black_54.png"
           alt="Facebook icon"></a>
-        <a href="https://www.linkedin.com/">
-          <img src="SocialMediaIcons\LinkedIn\In-White-59px-R.png"
+        <a class="socialMediaButton" href="https://www.linkedin.com/">
+          <img src="SocialMediaIcons/LinkedIn/In-Black-54px-R.png"
           alt="LinkedIn icon"></a>
-        <a href="https://www.twitter.com/">
-          <img src="SocialMediaIcons\Twitter\Twitter_Logo_WhiteOnImage.png"
+        <a class="socialMediaButton" href="https://www.twitter.com/">
+          <img src="SocialMediaIcons/Twitter/Twitter_Black_54.png"
           alt="LinkedIn icon"></a>
       </div>
       <div class="card">
-        <img src="http://placebeaver.com/200/200" alt="Avatar">
-        <div class="container">
-          <h4>About me</h4>
+        <div class="shortTitle description">About me</div>
+        <div class="avatar"></div>
+        <div class="shortTitle description shortInfo">
           Dorota Deleżyńska, MSc<br>
-          Learning to code<br>
+          Learning to code
+        </div>
+        <div class="shortTitle description shortInfo">
           Ice cream tiramisu macaroon chocolate bar marzipan danish.
           Croissant sesame snaps chocolate bar. Chocolate bar macaroon jelly-o
           croissant tootsie roll. Caramels bear claw gummi bears.
@@ -38,16 +44,21 @@
     </aside>
     <main>
       <article>
-        <p>
+        <p class="citation">
           Pastry pie chocolate cake sesame snaps. Tootsie roll dragée macaroon. Sweet sweet powder sesame snaps. Jelly beans jelly beans lemon drops lollipop cupcake danish chocolate cake lollipop. Chupa chups bonbon dessert donut wafer tiramisu. Jujubes sesame snaps jelly-o toffee wafer liquorice. Cupcake tart soufflé pastry. Chocolate cake apple pie cheesecake tart toffee tiramisu cake. Fruitcake carrot cake sweet roll gummi bears chocolate. Danish powder icing chupa chups soufflé toffee marshmallow pie tart. Cookie jelly beans sesame snaps gingerbread cookie. Pastry cupcake cookie tiramisu marshmallow bear claw sweet chupa chups macaroon. Wafer chupa chups biscuit sweet soufflé jelly-o donut.
-
-          Cookie carrot cake cookie gummies caramels brownie pudding halvah. Oat cake dessert dragée tiramisu. Biscuit pudding sugar plum candy canes pudding jelly beans pie marzipan marshmallow. Wafer jelly powder chupa chups. Bonbon marshmallow jelly-o cotton candy wafer. Lollipop ice cream cookie ice cream muffin cupcake. Chupa chups apple pie cotton candy lemon drops cupcake dragée jelly beans chupa chups lollipop. Tiramisu donut oat cake jelly-o tart chocolate liquorice powder. Chocolate cake gingerbread muffin cookie cheesecake. Sweet roll bonbon gingerbread croissant. Liquorice wafer jujubes tart tootsie roll cheesecake. Jelly sesame snaps donut chocolate bar dessert. Lollipop cookie toffee croissant carrot cake pastry.
-
-          Powder sweet cotton candy cupcake lemon drops oat cake tootsie roll dragée bonbon. Liquorice carrot cake sesame snaps sesame snaps sweet roll icing lemon drops soufflé jelly-o. Lemon drops bonbon chupa chups pastry muffin chupa chups sweet. Sesame snaps icing cake gummi bears donut. Gummies tart chocolate marshmallow. Dessert sugar plum cotton candy. Icing soufflé jujubes pastry cotton candy. Biscuit sweet toffee muffin candy canes jelly sweet sugar plum jelly-o. Fruitcake jelly cookie halvah cake cupcake. Soufflé cupcake caramels halvah oat cake muffin sugar plum gummi bears lollipop. Soufflé gingerbread chocolate tootsie roll jujubes cake jelly-o. Tart macaroon cookie cake sweet roll cake. Oat cake tiramisu carrot cake candy canes chupa chups sweet roll halvah brownie.
+        </p>
+        <p>
+          <b>Cookie carrot</b> cake cookie gummies caramels brownie pudding halvah. Oat cake dessert dragée tiramisu. <em>Biscuit pudding</em> sugar plum candy canes pudding jelly beans pie marzipan marshmallow. Wafer jelly powder chupa chups. Bonbon marshmallow jelly-o cotton candy wafer. Lollipop ice cream cookie ice cream muffin cupcake. Chupa chups apple pie cotton candy lemon drops cupcake dragée jelly beans chupa chups lollipop. Tiramisu donut oat cake jelly-o tart chocolate liquorice powder. Chocolate cake gingerbread muffin cookie cheesecake. Sweet roll bonbon gingerbread croissant. Liquorice wafer jujubes tart tootsie roll cheesecake. Jelly sesame snaps donut chocolate bar dessert. Lollipop cookie toffee croissant carrot cake pastry.
+        </p>
+        <p>
+          <strong>Powder sweet cotton candy</strong> cupcake lemon drops oat cake tootsie roll dragée bonbon. Liquorice carrot cake sesame snaps sesame snaps sweet roll icing lemon drops soufflé jelly-o. Lemon drops bonbon chupa chups pastry muffin chupa chups sweet. Sesame snaps icing cake gummi bears donut. Gummies tart chocolate marshmallow. Dessert sugar plum cotton candy. Icing soufflé jujubes pastry cotton candy. Biscuit sweet toffee muffin candy canes jelly sweet sugar plum jelly-o. Fruitcake jelly cookie halvah cake cupcake. Soufflé cupcake caramels halvah oat cake muffin sugar plum gummi bears lollipop. Soufflé gingerbread chocolate tootsie roll jujubes cake jelly-o. Tart macaroon cookie cake sweet roll cake. Oat cake tiramisu carrot cake candy canes chupa chups sweet roll halvah brownie.
         </p>
       </article>
-      <section>
-        <p> Tu będą przyciski do sharowania, ale najpierw chcę ogarnąć na głownej stronie</p>
+      <section class="containerSpaced">
+        <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2FBlogPost.com&layout=button&size=small&width=67&height=20&appId" width="100" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        <script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
+        <script type="IN/Share" data-url="https://www.linkedin.com"></script>
+        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </section>
     </main>
     <footer>

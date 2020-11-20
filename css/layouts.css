@@ -1,0 +1,26 @@
+.blogPostTemplate {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.blog {
+  display: grid;
+  grid-template: auto 1fr auto / auto 1fr auto;
+}
+
+header {
+  padding: 2rem;
+  grid-column: 1 / 4;
+}
+
+aside {
+  grid-column: 1 / 2;
+}
+
+main {
+  grid-column: 2 / 4;
+}
+
+footer {
+  grid-column: 1 / 4;
+}
